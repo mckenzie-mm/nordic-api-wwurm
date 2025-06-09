@@ -75,7 +75,7 @@
         "name": "Donauriesling 2023",
         "price": 950,
         "description": "Strahlendes Goldgelb. Aussergewöhnliches Aromen von vegetabilen Noten über fruchtige Nuancen (grüne Birnen, Marillen) bis hin zu grasig frischen Elementen wie Brennnessel. Ein sehr facettenreicher Wein im Geschmack nach Quitte, Nelken und Apfelkompott. Voluminösen Körper. Gut eingebunden Säure und langer Abgang. Ein überraschender Wein mit Lagerpotential.",
-        "images": "gemischter-satz-2023.jpg",
+        "images": "Donauriesling-2023-680x850.jpg",
         "availability": 10,
         "slug": "donauriesling-2021",
         "category": "wein"
@@ -212,16 +212,6 @@
         "category": "saft"
     },
     {
-        "id": 22,
-        "name": "Apfelsaft klar",
-        "price": 320,
-        "description": "12-monatige Flaschenvergärung Feine, cremige Perlage und ein feines Aroma nach Brioche und Marillenröster Das perfekte regionale Produkt aus St.Florian",
-        "images": "apfelsaft-klar-2018.jpg",
-        "availability": 10,
-        "slug": "apfelmost-klar",
-        "category": "most"
-    },
-    {
         "id": 23,
         "name": "Apfelsaft Kronprinz Rudolf",
         "price": 340,
@@ -286,7 +276,7 @@
         "name": "Fruchtsaft Apfel-Holunderbeere",
         "price": 340,
         "description": "Erntejahr: 2018, Flaschengrösse: 1,0L",
-        "images": "apfel-holunder.jpg",
+        "images": "wurm-apfel-holunder-2025-680x850.jpg",
         "availability": 10,
         "slug": "fruchtsaft-apfel-holunderbeere",
         "category": "saft"
@@ -426,7 +416,7 @@
         "name": "Quittenbrand",
         "price": 3700,
         "description": "Trinkstärke: 43,0 % vol. Alkohol Lagerpotential: 2 – 10 Jahre Erntejahr: 2005 Flaschengrösse: 0,35 L",
-        "images": "wwurm-quitte-2019.jpg",
+        "images": "wwurm-quitte-2019-680x850.jpg",
         "availability": 10,
         "slug": "quittenbrand",
         "category": "edelbrand"

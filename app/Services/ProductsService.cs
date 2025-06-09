@@ -186,7 +186,7 @@ public class ProductsService
 
         var OFFSET = (currentPage - 1) * ITEMS_PER_PAGE;
 
-        var sql = "SELECT * FROM products ORDER BY id DESC LIMIT @ITEMS_PER_PAGE OFFSET @OFFSET";
+        var sql = "SELECT * FROM products ORDER BY id ASC LIMIT @ITEMS_PER_PAGE OFFSET @OFFSET";
         try
         {
             using var connection = new SqliteConnection(_connectionString);
@@ -207,7 +207,7 @@ public class ProductsService
         var OFFSET = (currentPage - 1) * ITEMS_PER_PAGE;
 
         var sql = @"SELECT * FROM products WHERE category=@category
-                ORDER BY id DESC LIMIT @ITEMS_PER_PAGE OFFSET @OFFSET";
+                ORDER BY id ASC LIMIT @ITEMS_PER_PAGE OFFSET @OFFSET";
         try
         {
             using var connection = new SqliteConnection(_connectionString);
@@ -226,7 +226,7 @@ public class ProductsService
     public async Task<IEnumerable<Product>> GetSimilar(string category, int id)
     {
         var sql = @"SELECT * FROM products WHERE category=@category AND NOT id=@id
-            ORDER BY id DESC LIMIT @LIMIT";
+            ORDER BY id ASC LIMIT @LIMIT";
         try
         {
             using var connection = new SqliteConnection(_connectionString);
