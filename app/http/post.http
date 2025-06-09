@@ -1,0 +1,10 @@
+@host = http://localhost:5000
+POST {{host}}/admin/form
+Content-Type: application/x-www-form-urlencoded
+
+&name=test
+&price=2.18
+&description=test
+&images=2c40aad6-e0b7-4bc3-a718-18b6036f3ea3.webp,bce4e0af-a7b8-44d3-ad6e-fa158d83068d.webp
+&availability=10
+&category=earrings

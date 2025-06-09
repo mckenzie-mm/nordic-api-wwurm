@@ -1,0 +1,26 @@
+[
+    { 
+        "id": 0,  
+        "name": "edelbrand"
+    },
+    { 
+        "id": 1, 
+        "name": "wein" 
+    },
+    { 
+        "id": 2, 
+        "name": "schaumwein" 
+    },
+    { 
+        "id": 3, 
+        "name": "most" 
+    },
+    { 
+        "id": 4, 
+        "name": "saft" 
+    },
+    { 
+        "id": 5, 
+        "name": "pesto-und-fruchtaufstriche" 
+    }
+]
